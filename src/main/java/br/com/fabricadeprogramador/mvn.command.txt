@@ -1,0 +1,6 @@
+maven command.
+mvn archetype:generate -DgroupId=br.com.fabricadeprogramador -DartifactId=fabricaweb -DarchetypeArtifactId=maven-archetype-quickstart
+
+---git page
+https://git-scm.com/book/pt-br/v2
+	https://git-for-windows.github.io/
