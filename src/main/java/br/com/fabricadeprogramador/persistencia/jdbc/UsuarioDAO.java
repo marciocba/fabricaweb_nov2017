@@ -58,10 +58,8 @@ public class UsuarioDAO {
 			preparador.setInt(1, usu.getId());					
 			preparador.execute();
 			preparador.close();
-			
-			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			// TODO Auto-generated -- catch block
 			e.printStackTrace();
 		}
 		
