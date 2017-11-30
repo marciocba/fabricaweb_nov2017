@@ -1,5 +1,5 @@
 package br.com.fabricadeprogramador.persistencia.entidade;
-
+//class for user
 public class Usuario {
 	private int id;
 	private String nome;
