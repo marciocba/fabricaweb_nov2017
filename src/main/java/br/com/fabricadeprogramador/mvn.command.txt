@@ -4,3 +4,30 @@ mvn archetype:generate -DgroupId=br.com.fabricadeprogramador -DartifactId=fabric
 ---git page
 https://git-scm.com/book/pt-br/v2
 	https://git-for-windows.github.io/
+	1)
+git --version
+--ver istalacao
+2)
+git init
+--create repositorio para projeto web na pasta atual
+3)
+git status
+--vir se criou a pasta .git
+4)
+git add *
+git add --all
+5)
+git commit -m 'alteracoes'
+6) criar github remoto.....
+git remote add origin https://github.com/marciocba/JavaDB.git
+git remote add origin https://github.com/marciocba/fabricaweb_nov2017.git
+git push -u origin master
+
+#######exemplo....
+echo "# JavaDB" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/marciocba/JavaDB.git
+git push -u origin master
+#######

@@ -27,9 +27,9 @@ public class TestUsuarioDAO {
 		// Criando usuario
 		Usuario usu=new Usuario();
 		usu.setId(1);
-		usu.setNome("nome2");
-		usu.setLogin("login2");
-		usu.setSenha("senha2");
+		usu.setNome("nome3");
+		usu.setLogin("login3");
+		usu.setSenha("senha3");
 		//dao
 		UsuarioDAO usuDAO= new UsuarioDAO();
 		usuDAO.alterar(usu);
