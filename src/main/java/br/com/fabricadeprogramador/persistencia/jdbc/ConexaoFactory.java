@@ -14,15 +14,15 @@ public class ConexaoFactory {
 		String url="jdbc:mysql://localhost:3306/fabricaweb";
 		String userName="root";
 		String password="123456";
-		
-		/*try {
+		try {
 			Class.forName(driver);
 		} catch (ClassNotFoundException e1) {
 			// TODO Auto-generated catch block
 			throw new RuntimeException(e1);
-		}*/
+		}
 
 		try {
+			
 			//System.out.println("antes...okay");
 			Connection conn=DriverManager.getConnection(url, userName, password);
 			//System.out.println("depois...okay");
